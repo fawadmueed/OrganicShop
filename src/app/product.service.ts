@@ -11,7 +11,6 @@ export class ProductService {
   create(product)
   {
     return this.db.list('/products').push(product);
-
   }
 
   getAll()
@@ -31,7 +30,7 @@ export class ProductService {
 
   delete(id)
   {
-    return this.db.object('/products/'+id).remove;
+    return this.db.object('/products/'+id).remove();
   }
 
 }

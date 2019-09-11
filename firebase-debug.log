@@ -1,0 +1,78 @@
+[debug] [2019-07-04T18:58:09.597Z] ----------------------------------------------------------------------
+[debug] [2019-07-04T18:58:09.605Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-07-04T18:58:09.605Z] CLI Version:   6.9.2
+[debug] [2019-07-04T18:58:09.605Z] Platform:      win32
+[debug] [2019-07-04T18:58:09.605Z] Node Version:  v10.15.0
+[debug] [2019-07-04T18:58:09.609Z] Time:          Thu Jul 04 2019 14:58:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-07-04T18:58:09.610Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=764513660&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-07-04T18:58:25.201Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-07-04T18:58:46.305Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at ClientRequest.onError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:179:21)
+    at Object.onceWrapper (events.js:273:13)
+[debug] [2019-07-04T18:59:14.368Z] ----------------------------------------------------------------------
+[debug] [2019-07-04T18:59:14.376Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-07-04T18:59:14.377Z] CLI Version:   6.9.2
+[debug] [2019-07-04T18:59:14.377Z] Platform:      win32
+[debug] [2019-07-04T18:59:14.377Z] Node Version:  v10.15.0
+[debug] [2019-07-04T18:59:14.381Z] Time:          Thu Jul 04 2019 14:59:14 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-07-04T18:59:14.381Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=390023304&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-07-04T18:59:26.844Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-07-04T18:59:47.969Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at ClientRequest.onError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:179:21)
+    at Object.onceWrapper (events.js:273:13)
+[debug] [2019-07-04T19:00:51.742Z] ----------------------------------------------------------------------
+[debug] [2019-07-04T19:00:51.763Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-07-04T19:00:51.764Z] CLI Version:   6.9.2
+[debug] [2019-07-04T19:00:51.764Z] Platform:      win32
+[debug] [2019-07-04T19:00:51.764Z] Node Version:  v10.15.0
+[debug] [2019-07-04T19:00:51.771Z] Time:          Thu Jul 04 2019 15:00:51 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-07-04T19:00:51.771Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=127397419&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-07-04T19:01:09.406Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-07-04T19:01:09.438Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:182:13)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at ClientRequest.onError (C:\Users\503053281\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tunnel-agent\index.js:179:21)
+    at Object.onceWrapper (events.js:273:13)

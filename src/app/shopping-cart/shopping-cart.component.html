@@ -1,3 +1,35 @@
-<p>
-  shopping-cart works!
-</p>
+<h1>Shopping Cart</h1>
+<div *ngIf="cart$ | async as cart">
+        <p>
+            You have {{ cart.totalItemsCount }} items in your shopping cart.
+        </p>
+
+<div *ngIf="cart$" ></div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+        <!-- ShoppingCart is not an Arryay its an Object..Cannot directly apply ngFor -->
+        <!-- {{ cart.items | json}} -->
+            <!-- <tr *ngFor="let productId of cart.productIds">
+                <td>{{cart.items[productId].product.title}}</td>
+                <td>{{cart.items[productId].quantity}}</td>
+                <td></td>
+            </tr> -->
+            <!-- <div *ngIf="item2| async  as items "> -->
+                {{ item2 | json}}
+                {{ item | json}}
+            <tr *ngFor="let prodId of item2">
+                    <td>{{item[prodId].product.title}}</td>
+                    <td>{{item[prodId].quantity}}</td>
+                    <td></td>
+                </tr>
+                
+        
+
+    </table>
+</div>

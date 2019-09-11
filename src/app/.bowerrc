@@ -1,0 +1,7 @@
+{
+    "directory" : "src/assets/bower_components",
+    "registry": "http://bower.herokuapp.com",
+    //"proxy":"http://513053281:miammiam123a@PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80/",
+    "https-proxy":"https:/proxy.corporate.ge.com:80",
+    // "https-proxy":"http://513053281:miammiam123a@PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80/"
+}

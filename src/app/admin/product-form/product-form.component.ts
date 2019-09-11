@@ -25,11 +25,18 @@ export class ProductFormComponent implements OnInit {
     {
 
       this.id = this.activated_route.snapshot.paramMap.get('id');
-      if(this.id) this.prod_service.getProduct(this.id).subscribe(p => {
-        this.product = p;
-          console.log(this.product);
-          
-         });
+      //Getting id from URL
+
+      if(this.id) 
+      // If there's ID
+        {
+          //Get this product with this ID from Product Service
+          this.prod_service.getProduct(this.id).subscribe(p =>
+            {
+              this.product = p;
+              console.log(this.product);
+            });
+        }
       //we subscribed but didnt unsubscribe , Sol : Ondestroy OR take operator from rxjs
 
 

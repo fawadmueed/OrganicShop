@@ -1,0 +1,46 @@
+
+<div class="row">
+
+    <div class="col">
+        <b>Existing Categories</b>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let c of categories">
+              <td>{{c.$key}}</td>
+            <td>{{c.name}}</td>
+            <td><button class="btn btn-primary" (click)="edit_product(c)">Edit</button></td>
+            <td><button class="btn btn-warning" (click)="delete_product(c)">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>      
+      </div>
+
+  <div class="col">
+      <form #categories_form="ngForm" (ngSubmit)="create(categories_form.value)">
+     
+          <div class="form-group">
+            <label for="category">Category</label>
+            <input [(ngModel)]="category_key" type="text" class="form-control" id="X" name='key'>
+          </div>
+          <div class="form-group">
+              <label for="name">Name</label>
+              <input [(ngModel)]="category_name" type="text" class="form-control" id="Y" name="name">
+          </div>
+          
+        <button type="submit" class="btn btn-success">Save</button>
+        </form>
+  </div>
+
+  
+
+
+   
+</div>

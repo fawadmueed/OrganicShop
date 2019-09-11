@@ -1,0 +1,14 @@
+{
+  "name": "oshop",
+  "description": "oshop",
+  "main": "oshop",
+  "license": "MIT",
+  "homepage": "https://github.com/fawadmueed/OrganicShop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
